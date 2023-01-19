@@ -8,6 +8,7 @@ variables:
   VALIDATE: 'true'
 
 before_script:
+  - echo $APIKEY
   - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.valhallaonline.info/valhallaonline/python-projects/link-builder.git
   - pip install -r link-builder/CI-files/requirements.txt
 
