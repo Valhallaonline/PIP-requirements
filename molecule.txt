@@ -36,7 +36,6 @@ molecule-docker==0.2.4
 packaging==21.0
 paramiko==2.7.2
 pathspec==0.9.0
-pkg_resources==0.0.0
 pkgutil_resolve_name==1.3.10
 pluggy==0.13.1
 podman==4.3.0
